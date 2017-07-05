@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post component's title should NOT render as a link 1`] = `
+<div>
+  <h2
+    className="title"
+  >
+    My Post
+  </h2>
+  <p
+    className="content"
+  />
+</div>
+`;
+
+exports[`Post component's title should render as a link 1`] = `
+<div>
+  <h2
+    className="title"
+  >
+    <Link
+      activeClassName=""
+      activeOnlyWhenExact={false}
+      activeStyle={Object {}}
+      className="link"
+      isActive={[Function]}
+      replace={false}
+      style={Object {}}
+      to="/post/undefined"
+    >
+      My Post
+    </Link>
+  </h2>
+  <p
+    className="content"
+  />
+</div>
+`;

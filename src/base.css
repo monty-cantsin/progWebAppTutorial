@@ -1,0 +1,28 @@
+:root {
+	--site-width: 98rem;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F1F1F1;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
